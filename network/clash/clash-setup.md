@@ -90,7 +90,7 @@ function main(config, profileName) {
     {
       ...groupBaseOption,
       "name": "ai",
-      "type": "select",
+      "type": "url-test",
       "proxies": nonHkProxies,
       //"include-all": true,
       "icon": "https://fastly.jsdelivr.net/gh/clash-verge-rev/clash-verge-rev.github.io@main/docs/assets/icons/adjust.svg"
