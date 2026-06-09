@@ -6,6 +6,7 @@
 
 
 
+
 ## extension scripts
 
 ```javascript
@@ -115,3 +116,13 @@ function main(config, profileName) {
 
 
 ```
+
+
+
+## QA
+
+### 访问chatgpt时出现部分域名无法匹配clash rules
+可能是使用了udp协议，可以检查clash connection连接情况，确认是否为udp链接，如果是可能是chrome开启了quic协议，在chrome://flags搜索quic，关闭quic协议支持
+
+
+
